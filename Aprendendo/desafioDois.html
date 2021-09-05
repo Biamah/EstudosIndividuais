@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // preencher com 1 apenas as linhas impares
+
+    const matriz = [
+      [0, 0, 0],
+      [0, 0, 0],
+      [0, 0, 0],
+    ]
+
+    // for (let i = 0; i < matriz.length; i++) {
+    //   if (i % 2 === 0) {
+    //     for (let e = 0; e < matriz[i].length; e++) {
+    //       matriz[i][e] = 1;
+    //     }
+    //   }
+    // }
+
+    debugger
+
+    for (let i = 0; i < matriz.length; i++) {
+      for (let j = 0; j < matriz[i].length; j++) {
+        if (i % 2 === 0) {
+          matriz[i][j] = 1;
+        }
+      }
+    }
+
+    console.log(matriz);
+  </script>
+</body>
+
+</html>
