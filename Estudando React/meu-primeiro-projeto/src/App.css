@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  padding-top: 50px;
+  /* padding-left: 50px; */
+  width: 800px;
+}
+.formulario-cadastro {
+  border: 1px solid grey;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+}
+.title {
+  position: absolute;
+  left: 10px;
+  top: -25px;
+  background-color: white;
+  color: black;
+}
+.inputs-button {
+  display: flex;
+  justify-content: space-around;
+}
